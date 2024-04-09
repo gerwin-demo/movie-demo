@@ -48,7 +48,7 @@ def set_theme():
            color: #c2c5cc;
            background-color: #151a21;
            padding: 2px;
-           border-radius: 3px;
+           border-radius: 0px;
            text-align: center;
            animation: glow 2s ease-in-out infinite alternate;
         }
