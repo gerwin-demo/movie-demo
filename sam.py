@@ -47,8 +47,8 @@ def set_theme():
         h1 {
            color: #c2c5cc;
            background-color: #151a21;
-           padding: 10px;
-           border-radius: 10px;
+           padding: 2px;
+           border-radius: 3px;
            text-align: center;
            animation: glow 2s ease-in-out infinite alternate;
         }
@@ -69,7 +69,7 @@ similarity = load_data("similarity.pkl")
 
 # Streamlit UI
 def streamlit_ui():
-    st.title("🌌 Project Movie Recommender System 🌌")
+    st.title("Project Movie Recommender System ")
     movies_list_title = movies_list['title'].values
     selected_movie_name = st.selectbox("Type or select a movie from the dropdown", movies_list_title)
 
